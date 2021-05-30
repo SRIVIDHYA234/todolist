@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.7.0'
 gem 'bundler', '2.2.16'
-gem 'rake', '11.2.2'
+
 gem 'rails'
 gem 'bootstrap-sass', '3.3.6'
 gem 'bcrypt',         '3.1.11'
@@ -34,6 +34,7 @@ end
 
 group :production do
   gem 'pg', '0.18.4'
+  gem 'rake', '11.2.2'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
