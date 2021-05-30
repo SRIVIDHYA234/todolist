@@ -79,5 +79,7 @@ test:
 production:
   <<: *default
   database: todo-sample-production
-  username: todo-list
-  password: <%= ENV['TODO-LIST_DATABASE_PASSWORD'] %>
+  host: 127.0.0.1
+  username: srividhya
+  password: srividhya
+  port: 5432
