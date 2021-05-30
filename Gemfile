@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 ruby '2.7.0'
+gem 'bundler', '~>2.0.0.pre.3'
 gem 'rake', '11.2.2'
 gem 'rails',        '5.0.0.1'
 gem 'bootstrap-sass', '3.3.6'
